@@ -1,4 +1,4 @@
-namespace bank.shared.Requests.Categories;
+namespace bank.shared.Requests.Transation;
 
 public class GetCategoryById : Request
 {

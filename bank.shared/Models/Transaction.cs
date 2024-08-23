@@ -11,6 +11,7 @@ public class Transaction
     public DateTime PaidOrRecivedAt {get; set;}
 
     public ETransactionsType Type {get; set;} = ETransactionsType.Withdraw;
+    public decimal Amount {get;set;}
     public long CategoryId {get; set;}
     public Category Category {get; set;} = null!;
 
